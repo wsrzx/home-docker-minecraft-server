@@ -7,8 +7,8 @@ services:
     image: itzg/minecraft-bedrock-server
     environment:
       EULA: "TRUE"
-      GAMEMODE: adventure 
-      DIFFICULTY: normal
+      GAMEMODE: creative 
+      DIFFICULTY: peaceful
       SERVER-NAME: minecraft-home
     ports:
       - 19132:19132/udp
